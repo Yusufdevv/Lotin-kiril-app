@@ -44,7 +44,7 @@ class _WalletScreenState extends State<WalletScreen> {
           children: [
             const Header(),
             Stack(
-              children:  [Budget(expenses.totalMonthlyAmount()), ExpenseList(expenses)],
+              children:[Budget(expenses.totalMonthlyAmount()), ExpenseList(expenses)],
             ),
           ],
         ),
